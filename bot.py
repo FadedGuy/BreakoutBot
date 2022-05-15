@@ -1,15 +1,10 @@
 #!/usr/bin/env python3
-from re import T
 from pyautogui import *
 import pyautogui
 import time
 import keyboard
-import numpy as np
-import random
 import win32api as winapi
 import win32con as wincon
-import cv2
-from PIL import ImageGrab
 
 def click(x, y):
     winapi.SetCursorPos((x,y))
